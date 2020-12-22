@@ -112,6 +112,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
     android.hardware.gnss@1.0-service
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
